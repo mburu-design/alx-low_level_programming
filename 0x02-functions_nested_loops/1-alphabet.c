@@ -22,5 +22,5 @@ while (c <= 'z')
 _putchar(c);
 c++;
 }
-c_putchar('\n');
+_putchar('\n');
 }
