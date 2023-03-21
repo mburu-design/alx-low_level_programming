@@ -2,14 +2,5 @@
 #define MAIN_H
 
 int _putchar(char c);
-void print_alphabet(void)
-{
-char c = 'a';
-while (c <= 'z')
-{
-_putchar(c);
-c++;
-}
-_putchar('\n');
-}
+void print_alphabet(void);
 #endif /* MAIN_H */
