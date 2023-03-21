@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* function prototypes go here */
+int _putchar(char c);
 
 #endif /* MAIN_H */
