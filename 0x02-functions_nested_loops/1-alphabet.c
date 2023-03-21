@@ -1,19 +1,9 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_alphabet();
-    return (0);
-}
-/**
- * print_alphabet
- *
- *prints the alphabet, in lowercase, followed by a new line.
- */
+*print_alphabet fuction
+*prints the alphabet
+*
+*/
 void print_alphabet(void)
 {
 char c = 'a';
@@ -23,4 +13,15 @@ _putchar(c);
 c++;
 }
 _putchar('\n');
+}
+
+/**
+* main - check the code
+*
+* Return: Always 0.
+*/
+int main(void)
+{
+print_alphabet();
+return (0)
 }
