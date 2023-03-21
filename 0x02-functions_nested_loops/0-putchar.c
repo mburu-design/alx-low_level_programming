@@ -1,7 +1,7 @@
 #include "main.h"
+/*program that prints _putchar, followed by a new line*/
 int main(void)
 {
-/*program that prints _putchar, followed by a new line*/
 _putchar('_');
 _putchar('p');
 _putchar('u');
